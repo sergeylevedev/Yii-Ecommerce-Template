@@ -1,0 +1,51 @@
+{
+    "name": "null-ref-excep/yii2-shopper",
+    "description": "E-commerce application template based on Yii 2 Advanced Application Template",
+    "keywords": [
+        "yii2",
+        "framework",
+        "application template",
+        "shop",
+        "e-commerce"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/NullRefExcep/yii2-shopper/issues",
+        "wiki": "https://github.com/NullRefExcep/yii2-shopper/wiki",
+        "source": "https://github.com/NullRefExcep/yii2-shopper"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.0",
+        "yiisoft/yii2-bootstrap": "2.0.0",
+        "yiisoft/yii2-swiftmailer": "2.0.0",
+        "rmrevin/yii2-fontawesome": "2.5.0",
+        "kartik-v/yii2-widgets": "*",
+        "wbraganca/yii2-nested-set-behavior": "*",
+        "wbraganca/yii2-fancytree-widget": "*",
+        "omnilight/yii2-shopping-cart": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "2.0.0",
+        "yiisoft/yii2-debug": "2.0.0",
+        "yiisoft/yii2-gii": "2.0.0",
+        "yiisoft/yii2-faker": "2.0.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/serhiyvinichuk/yii2-fancytree-widget"
+        }
+    ]
+}
